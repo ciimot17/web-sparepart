@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontak | Bengkel Motor Sejahtera</title>
+  <link rel="icon" type="image/png" href="akse.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #222;
+      margin: 0;
+    }
+
+    header {
+      background-color: #d32f2f;
+      color: white;
+      padding: 20px;
+    }
+
+    .header-flex {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header-flex h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .back-button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      fill: white;
+      width: 24px;
+      height: 24px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #d32f2f;
+      text-align: center;
+    }
+
+    .info {
+      text-align: center;
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+
+    form {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    button[type="submit"] {
+      background-color: #d32f2f;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #b71c1c;
+    }
+
+    .whatsapp {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .whatsapp a {
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      padding: 20px;
+      background-color: #b71c1c;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-flex">
+      <button class="back-button" onclick="history.back()" title="Kembali">
+        <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 
+          1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 
+          3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 
+          1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"/>
+        </svg>
+      </button>
+      <h1>Hubungi Kami</h1>
+    </div>
+    <p style="margin-left: 40px;">Bengkel Motor Sejahtera</p>
+  </header>
+
+  <div class="container">
+    <h2>Informasi Kontak</h2>
+    <div class="info">
+      📍 Alamat: Jl. Mekanik No. 88, Kota Motor<br />
+      📞 Telepon: 0822-4177-6434<br />
+      ✉️ Email: bengkelmotor@gmail.com
+    </div>
+
+    <form>
+      <input type="text" placeholder="Nama Anda" required />
+      <input type="email" placeholder="Alamat Email" required />
+      <textarea rows="5" placeholder="Pesan Anda..." required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="whatsapp">
+      <p>Atau hubungi langsung lewat WhatsApp:</p>
+      <a href="https://wa.me/6282241776434" target="_blank">Chat via WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Bengkel Motor Sejahtera. Kami Siap Membantu Anda.
+  </footer>
+
+</body>
+</html>
